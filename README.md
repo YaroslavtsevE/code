@@ -1,0 +1,5 @@
+- install node.js
+- open your folder in console
+- type command 'npm install cypress'
+- create local repository in folder
+- type command 'npx cypress open'
