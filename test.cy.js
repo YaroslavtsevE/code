@@ -11,6 +11,8 @@ describe("drom", function () {
     cy.visit(consts.URL_DROM)
     cy.get(consts.HEADER_REGION_ELEMENT).should('have.text',consts.HEADER_REGION)
     cy.get(consts.NAV_AUTO).should('have.text',consts.NAV_AUTO_TEXT).click()
+    cy.get(consts.NAV_AUTO).should('have.text',consts.NAV_AUTO_TEXT).click()
+    cy.get(consts.DROP_BOX_MODEL).click()
     cy.wait(parameters.WAITING)
   });
 });

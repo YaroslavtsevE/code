@@ -5,4 +5,5 @@ export default {
     HEADER_REGION: 'Новосибирская область',
     NAV_AUTO: 'div > [data-ftid="component_header_main-menu-item"]:first-child',
     NAV_AUTO_TEXT: 'Автомобили',
+    DROP_BOX_MODEL: '[placeholder="Марка"]'
   };
